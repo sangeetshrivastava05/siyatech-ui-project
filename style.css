@@ -1,0 +1,313 @@
+:root{
+    --pink:#e84393
+}
+*{
+    margin: 0; box-sizing: border-box; outline: none;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+}
+section{
+    padding: 2rem 9%;
+}
+section{
+    padding: 2rem 9%;
+}
+
+section {
+    padding:2rem 9% ;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: white;
+    padding: 3rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: cyan;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo {
+    font-size: 3rem;
+    color: black;
+    font-weight: bolder;
+
+}
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: black;
+    
+}
+
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./images/2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.home .content{
+    max-width: 50rem;
+}
+.home .content h3{
+    font-size: 6rem;
+    color: black;
+}
+.home .content p {
+    font-size: 1.5rem;
+    color: blue;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./images/3.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.about .purpose{
+    max-width: 50rem;
+}
+.about .purpose h3{
+    font-size: 6rem;
+    color: black;
+}
+.about .purpose p {
+    font-size: 1.5rem;
+    color: blue;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 0 8%;
+}
+.container h1{
+    font-size: 50px;
+    height: px;
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+     font-weight: 600;
+     position: relative;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.services{
+   text-align: center;
+   padding: 25px 10px;
+   border-radius: 5px;
+   font-size: 14px;
+   background: transparent;
+}
+.services i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #303ef7;
+}
+.services h2{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.wrapper{
+    margin-top: 10%;
+
+}
+.wrapper h1{
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.teams{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap ;
+
+}
+.teams .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+.teams .team_member h3{
+    color: black;
+    font-size: 26px;
+    margin-top: 40px;
+
+}
+.teams .team_member p.role{
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.teams .team_member.team_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%
+    
+
+}
+.teams .team_member.team_image img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+}
+
+.client-wrap{
+    width: 90%;
+    height: auto;
+    text-align: center;
+
+}
+.client-wrap h1{
+    font-size: 60px;
+    color: black;
+}
+.client-wrap hr{
+   width: 15%;
+   height: 5px;
+   border: none;
+   background: #26ccca;
+   margin:auto;
+   margin-top: 30px;
+   margin-bottom:30px;
+
+}
+.clien-in{
+    width: 100%;
+    height: auto;
+
+}
+.clien-in ul{
+    padding: 0;
+    margin: 0;
+}
+.clien-in ul li{
+    list-style:none ;
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmaxx(30rem,1fr));
+    gap: 2rem;
+}
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 1rem;
+    color: black;
+    padding: 1rem 0;
+  
+}
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color: black;
+}
+.footer .credit{
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    border-top:1rem solid rgba(0, 0, 0, .1) ;
+}
+.footer .credit span {
+    color:#303ef7;
+}
+
+/* media*/
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+      
+    }
+    header{
+        padding: 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+    .home{
+        background-position: left;
+    }
+    section{
+        padding: 2rem;
+    }
+    .about{
+        background-position: left;
+    }
+
+}
+@media(max-width:768px){
+    header .navbar{
+        position:absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: cyan;
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+    }
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: cyan;
+        border: 1rem solid rgba(0, 0, 0, .1);
+        
+    }
+    .home .content h3{
+        font-size: 5rem;
+    }
+    .about .purpose h3{
+        font-size: 5rem;
+    }
+}
